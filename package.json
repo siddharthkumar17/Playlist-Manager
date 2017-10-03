@@ -1,0 +1,10 @@
+{
+  "name": "Playlist Manager",
+  "version": "1.0.0",
+  "author": "Siddharth Kumar",
+  "main": "main.js",
+  "dependencies": {},
+  "devDependencies": {
+    "electron": "1.7.8"
+  }
+}

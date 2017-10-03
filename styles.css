@@ -1,0 +1,15 @@
+body{
+
+  margin-top: 100px;
+}
+#main {
+    float:left;
+    width:50%;
+
+
+    }
+#sidebar {
+    float:right;
+    width:50%;
+
+   }

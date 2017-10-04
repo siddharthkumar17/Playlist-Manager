@@ -18,12 +18,15 @@ function createWindow () {
     protocol: 'file:',
     slashes: true
   }))
-
+  /*
   document.getElementById('slist').appendChild(makeList(slist));
   document.getElementById('ytlist').appendChild(makeList(ytlist));
 
 
-  win.webContents.openDevTools()
+
+*/
+
+
 
 
   win.on('closed', () => {
@@ -48,20 +51,3 @@ app.on('activate', () => {
     createWindow()
   }
 })
-
-function makeList(list){
-
-  var list = document.createElement('ul');
-
-    for(var i = 0; i < array.length; i++) {
-
-        var item = document.createElement('li');
-
-        item.appendChild(document.createTextNode(array[i]));
-
-        list.appendChild(item);
-    }
-
-    return list;
-
-}
